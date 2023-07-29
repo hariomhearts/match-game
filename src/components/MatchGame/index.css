@@ -1,0 +1,218 @@
+.main-container {
+  height: 100vh;
+  width: 100vw;
+}
+.match-game-navbar-section {
+  display: flex;
+  width: 100vw;
+  padding: 20px 40px 20px 40px;
+  background-color: #2c0e3a;
+  justify-content: space-between;
+  align-items: center;
+}
+.website-logo {
+  height: 40px;
+}
+.score-div {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.score-name-div {
+  margin-right: 30px;
+}
+.score-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  margin: 0px;
+}
+.score {
+  color: #fec653;
+}
+.score-timer-img {
+  height: 24px;
+}
+.score-time-div {
+  display: flex;
+  align-items: center;
+}
+.div-section {
+  display: flex;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.div-game-section {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 20px 80px 20px;
+  width: 60%;
+}
+.match-img {
+  width: 100%;
+  border-radius: 10px;
+}
+.tabs-section-name {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.button-tab {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 0px 30px 0px 30px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  min-width: 60px;
+  height: 40px;
+  margin-right: 20px;
+  padding: 10px;
+}
+.highlight-text {
+  color: #fec653;
+  border-bottom: solid 2px #fec653;
+}
+.tab-list-img {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.btn-thumb-img {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 20%;
+}
+.thumb-img {
+  width: 120px;
+}
+.div-section-game-over {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 480px;
+  height: 600px;
+  background-size: cover;
+}
+
+.trophy-img {
+  width: 280px;
+  height: 220px;
+  margin-top: 180px;
+}
+.main-heading {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.your-score {
+  color: white;
+  font-size: 34px;
+  margin: 10px;
+  margin-bottom: 25px;
+}
+
+.play-button {
+  width: 160px;
+  padding: 5px;
+  border-style: none;
+  outline: none;
+  background-color: #cf60c8;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.restart {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .div-section-game-over {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    width: 95%;
+    height: 75%;
+    margin-top: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .div-game-section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 60%;
+  }
+  .trophy-image {
+    margin-top: 82px;
+    width: 220px;
+    height: 120px;
+  }
+  .main-heading {
+    font-size: 14px;
+  }
+  .your-score {
+    font-size: 32px;
+  }
+  .play-button {
+    width: 120px;
+    font-size: 12px;
+  }
+  .div-game-section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 90%;
+  }
+  .match-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .tab-list-img {
+    padding: 0px;
+    justify-content: center;
+  }
+  .thumb-img {
+    width: 60px;
+  }
+  .div-section {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+    background-size: cover;
+    height: 100%;
+    align-items: flex-start;
+  }
+
+  .website-logo {
+    height: 20px;
+  }
+  .match-game-navbar-section {
+    padding: 10px 20px 10px 20px;
+  }
+  .score-name {
+    font-size: 14px;
+    margin: 0px;
+  }
+  .score-name-div {
+    margin-right: 10px;
+  }
+}
